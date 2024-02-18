@@ -74,7 +74,7 @@ export type Texture = struct {
 };
 
 // Texture2d, Texture alias
-export type Texture2d = Texture;
+export type Texture2D = Texture;
 
 // TextureCubeMap, Texture alias
 export type TextureCubeMap = Texture;
@@ -132,7 +132,7 @@ export type Camera = Camera3D;
 
 // Camera2D, defines position/orientation in 2d space
 export type Camera2D = struct {
-	offset: Vector2,
+	off_set: Vector2, // offset is a keyword so off_set will have to do
 	target: Vector2,
 	rotation: f32,
 	zoom: f32
@@ -196,7 +196,7 @@ export type Model = struct {
 	transform: Matrix,
 	mesh_count: i32,
 	material_count: i32,
-	meshes: []mesh,
+	meshes: []Mesh,
 	materials: []Material,
 	mesh_materials: []i32,
 	bone_count: i32,
@@ -242,10 +242,10 @@ export type Wave = struct {
 };
 
 // TODO: ma_data_converte type
-export type ma_data_converter;
+export type ma_data_converter = nullable *opaque;
 
 // TODO: AudioCallback type
-export type AudioCallback;
+export type AudioCallback = nullable *opaque;
 
 export type RAudioProcessor = struct {
 	process: AudioCallback,
@@ -333,7 +333,7 @@ export type FilePathList = struct {
 // Automation event
 export type AutomationEvent = struct {
 	frame: u32,
-	type: u32,
+	event_type: u32, // type is a keyword so event_type will have to do
 	params: [4]i32
 };
 

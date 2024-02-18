@@ -112,7 +112,7 @@ export @symbol("GetWindowScaleDPI") fn get_window_scale_dpi() Vector2;
 
 @symbol("GetMonitorName") fn GetMonitorName(monitor: i32) *c::char;
 export fn get_monitor_name(monitor: i32) str = {
-	return c::tostr(GetMonitorName(monitor));
+	return c::tostr(GetMonitorName(monitor))!;
 };
 
 @symbol("SetClipboardText") fn SetClipboardText(text: *c::char) void;
@@ -122,7 +122,7 @@ export fn set_clipboard_text(text: str) void = {
 
 @symbol("GetClipboardText") fn GetClipboardText() *c::char;
 export fn get_clipboard_text() str = {
-	return c::tostr(GetClipboardText());
+	return c::tostr(GetClipboardText())!;
 };
 
 export @symbol("EnableEventWaiting") fn enable_event_waiting() void;
