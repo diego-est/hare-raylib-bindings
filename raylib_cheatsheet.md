@@ -714,29 +714,29 @@ Chinese Translation: 以下为raylib所有API接口中文释义
 - [x] `struct RenderTexture;`
 - [x] `struct NPatchInfo;`
 - [x] `struct GlyphInfo;`
-- [ ] `struct Font;`
-- [ ] `struct Camera3D;`
-- [ ] `struct Camera2D;`
-- [ ] `struct Mesh;`
-- [ ] `struct Shader;`
-- [ ] `struct MaterialMap;`
-- [ ] `struct Material;`
-- [ ] `struct Transform;`
-- [ ] `struct BoneInfo;`
-- [ ] `struct Model;`
-- [ ] `struct ModelAnimation;`
-- [ ] `struct Ray;`
-- [ ] `struct RayCollision;`
-- [ ] `struct BoundingBox;`
-- [ ] `struct Wave;`
-- [ ] `struct AudioStream;`
-- [ ] `struct Sound;`
-- [ ] `struct Music;`
-- [ ] `struct VrDeviceInfo;`
-- [ ] `struct VrStereoConfig;`
-- [ ] `struct FilePathList;`
-- [ ] `struct AutomationEvent;`
-- [ ] `struct AutomationEventList;`
+- [x] `struct Font;`
+- [x] `struct Camera3D;`
+- [x] `struct Camera2D;`
+- [x] `struct Mesh;`
+- [x] `struct Shader;`
+- [x] `struct MaterialMap;`
+- [x] `struct Material;`
+- [x] `struct Transform;`
+- [x] `struct BoneInfo;`
+- [x] `struct Model;`
+- [x] `struct ModelAnimation;`
+- [x] `struct Ray;`
+- [x] `struct RayCollision;`
+- [x] `struct BoundingBox;`
+- [x] `struct Wave;`
+- [x] `struct AudioStream;`
+- [x] `struct Sound;`
+- [x] `struct Music;`
+- [x] `struct VrDeviceInfo;`
+- [x] `struct VrStereoConfig;`
+- [x] `struct FilePathList;`
+- [x] `struct AutomationEvent;`
+- [x] `struct AutomationEventList;`
 
 ## colors
 - [x] `LIGHTGRAY`

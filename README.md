@@ -15,6 +15,6 @@ I am basically ticking things off from the raylib cheatsheet page. You can check
 - [ ] rtext.ha
 - [ ] rmodels.ha
 - [ ] raudio.ha
-- [ ] rstructs.ha
+- [x] rstructs.ha
 - [ ] rcolors.ha
 - [ ] rdefines.ha
