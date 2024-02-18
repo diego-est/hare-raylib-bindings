@@ -1,3 +1,12 @@
+//------------------------------------------------------------------------------
+//
+//     Filename:  extra_types.ha
+//  Description:  raylib extra types, not necessarily listed in cheatsheet
+//      License:  GPL-3.0
+//     Original:  raylib.h#TODO
+//
+//------------------------------------------------------------------------------
+
 // WindowFlag
 export type ConfigFlag = enum u32 {
 	VSyncHint		= 0x00000040, // Set to try enabling VSync on GPU

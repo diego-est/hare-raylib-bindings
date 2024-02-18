@@ -1,3 +1,11 @@
+//------------------------------------------------------------------------------
+//
+//     Filename:  rcore.ha
+//  Description:  raylib core functions
+//      License:  GPL-3.0
+//     Original:  raylib.h#L949-L1215
+//
+//------------------------------------------------------------------------------
 use types::c;
 
 export fn init_window(width: size, height: size, title: str) void = {

@@ -1,8 +1,9 @@
 //------------------------------------------------------------------------------
 //
-//         Name:  types.ha
+//     Filename:  rstructs.ha
 //  Description:  raylib types
-//     Original:  https://github.com/raysan5/raylib/blob/master/src/raylib.h
+//      License:  GPL-3.0
+//     Original:  raylib.h#L197-L525
 //
 //------------------------------------------------------------------------------
 

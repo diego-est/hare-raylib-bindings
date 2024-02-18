@@ -1,3 +1,12 @@
+//------------------------------------------------------------------------------
+//
+//     Filename:  rdefines.ha
+//  Description:  raylib macro defines
+//      License:  GPL-3.0
+//     Original:  raylib.h#TODO
+//
+//------------------------------------------------------------------------------
+
 // Some basic defines
 export const PI = 3.14159265358979323846;
 export const DEG2RAD = 3.14159265358979323846 / 180.0;
