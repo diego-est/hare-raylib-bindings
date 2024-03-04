@@ -62,32 +62,32 @@ Chinese Translation: 以下为raylib所有API接口中文释义
 
 ### Cursor-related functions
 
-- [ ] `void ShowCursor(void);`
-- [ ] `void HideCursor(void);`
-- [ ] `bool IsCursorHidden(void);`
-- [ ] `void EnableCursor(void);`
-- [ ] `void DisableCursor(void);`
-- [ ] `bool IsCursorOnScreen(void);`
+- [x] `void ShowCursor(void);`
+- [x] `void HideCursor(void);`
+- [x] `bool IsCursorHidden(void);`
+- [x] `void EnableCursor(void);`
+- [x] `void DisableCursor(void);`
+- [x] `bool IsCursorOnScreen(void);`
 
 ### Drawing-related functions
 
 - [x] `void ClearBackground(Color color);`
 - [x] `void BeginDrawing(void);`
 - [x] `void EndDrawing(void);`
-- [ ] `void BeginMode2D(Camera2D camera);`
-- [ ] `void EndMode2D(void);`
-- [ ] `void BeginMode3D(Camera3D camera);`
-- [ ] `void EndMode3D(void);`
-- [ ] `void BeginTextureMode(RenderTexture2D target);`
-- [ ] `void EndTextureMode(void);`
-- [ ] `void BeginShaderMode(Shader shader);`
-- [ ] `void EndShaderMode(void);`
-- [ ] `void BeginBlendMode(int mode);`
-- [ ] `void EndBlendMode(void);`
-- [ ] `void BeginScissorMode(int x, int y, int width, int height);`
-- [ ] `void EndScissorMode(void);`
-- [ ] `void BeginVrStereoMode(VrStereoConfig config);`
-- [ ] `void EndVrStereoMode(void);`
+- [x] `void BeginMode2D(Camera2D camera);`
+- [x] `void EndMode2D(void);`
+- [x] `void BeginMode3D(Camera3D camera);`
+- [x] `void EndMode3D(void);`
+- [x] `void BeginTextureMode(RenderTexture2D target);`
+- [x] `void EndTextureMode(void);`
+- [x] `void BeginShaderMode(Shader shader);`
+- [x] `void EndShaderMode(void);`
+- [x] `void BeginBlendMode(int mode);`
+- [x] `void EndBlendMode(void);`
+- [x] `void BeginScissorMode(int x, int y, int width, int height);`
+- [x] `void EndScissorMode(void);`
+- [x] `void BeginVrStereoMode(VrStereoConfig config);`
+- [x] `void EndVrStereoMode(void);`
 
 ### VR stereo config functions for VR simulator
 

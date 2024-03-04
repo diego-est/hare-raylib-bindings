@@ -156,3 +156,43 @@ export @symbol("GetKeyPressed") fn get_key_pressed() KeyboardKey;
 export @symbol("GetCharPressed") fn get_char_pressed() u8;
 
 export @symbol("SetExitKey") fn set_exit_key(key: int) void;
+
+export @symbol("ShowCursor") fn show_cursor() void;
+
+export @symbol("HideCursor") fn hide_cursor() void;
+
+export @symbol("IsCursorHidden") fn is_cursor_hidden() bool;
+
+export @symbol("EnableCursor") fn enable_cursor() void;
+
+export @symbol("DisableCursor") fn disable_cursor() void;
+
+export @symbol("IsCursorOnScreen") fn is_cursor_on_screen() bool;
+
+export @symbol("BeginMode2D") fn begin_mode_2d(Camera2D camera) void;
+
+export @symbol("EndMode2D") fn end_mode_2d() void;
+
+export @symbol("BeginMode3D") fn begin_mode_3d(Camera3D camera) void;
+
+export @symbol("EndMode3D") fn end_mode_3d() void;
+
+export @symbol("BeginTextureMode") fn begin_texture_mode(RenderTexture2D target) void;
+
+export @symbol("EndTextureMode") fn end_texture_mode() void;
+
+export @symbol("BeginShaderMode") fn begin_shader_mode(Shader shader) void;
+
+export @symbol("EndShaderMode") fn end_shader_mode() void;
+
+export @symbol("BeginBlendMode") fn begin_blend_mode(int mode) void;
+
+export @symbol("EndBlendMode") fn end_blend_mode() void;
+
+export @symbol("BeginScissorMode") fn begin_scissor_mode(int x, int y, int width, int height) void;
+
+export @symbol("EndScissorMode") fn end_scissor_mode() void;
+
+export @symbol("BeginVrStereoMode") fn begin_vr_stereo_mode(VrStereoConfig config) void;
+
+export @symbol("EndVrStereoMode") fn end_vr_stereo_mode() void;
