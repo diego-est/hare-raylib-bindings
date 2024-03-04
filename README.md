@@ -1,3 +1,5 @@
+Moved to [SourceHut](https://git.sr.ht/~diego-est/hare-raylib-bindings)
+
 # Hare Raylib Bindings
 - [Raylib](https://www.raylib.com)
 - [Hare Language](https://harelang.org/)
